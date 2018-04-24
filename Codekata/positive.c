@@ -2,14 +2,14 @@
 int main()
 {
 int n;
-printf("Enter a number:");
+
 scanf("%d",&n);
 if(n>=1&&n<100000)
-  printf("POSITIVE");
+  printf("positive");
 
 else if(n==0)
-  printf("ZERO");
+  printf("zero");
 else
-  printf("INVALID");
+  printf("invalid");
 return 0;
 }
