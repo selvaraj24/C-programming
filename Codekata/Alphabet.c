@@ -3,15 +3,14 @@
 int main()
 {
 char ch;
-printf("Enter the letter:");
 scanf("%c",&ch);
 if(isalpha(ch))
 {
-  printf("ALPHABET");
+  printf("Alphabet");
 }
  else
  {
-   printf("NUMBER");
+   printf("No");
  }
    return 0;
    }
