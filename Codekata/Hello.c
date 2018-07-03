@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {  
   int n,i;
   scanf("%d",&n);
@@ -7,5 +7,6 @@ void main()
    {
       printf("Hello\n");
    }
+  return 0
 }    
   
