@@ -5,7 +5,7 @@ int main()
     int a,b,n=0,t,rem;
     scanf("%d",&a);
     t=a;
-    if(a<=1000)
+    if(a>=1000)
     {
         while(a>0)
         {
